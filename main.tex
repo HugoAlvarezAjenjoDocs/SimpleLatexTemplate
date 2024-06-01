@@ -1,0 +1,33 @@
+% - https://github.com/HugoAlvarezAjenjoDocs/SimpleLatexTemplate - %
+\documentclass[a4paper, 10pt]{article}
+\input{core/config}
+\input{core/vars}
+
+% -- Define Header --
+% \pagestyle{fancy}
+% \fancyhf{}
+
+% -- Define Footer -- 
+% \rfoot{\thepage}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \Huge\textbf{\GlobalHeader}\par
+    \vspace{0.5cm}
+    \huge{\Proyect}
+    \vspace{4cm}
+    \flushright{
+        \textbf{Authors}\par
+        \Authors
+    }
+    \vfill
+    \vspace{3cm}
+\end{titlepage}
+
+% - Input Sections -%
+
+\newpage
+\tableofcontents
+\end{document}
